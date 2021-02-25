@@ -1,0 +1,21 @@
+.btn {
+color: white;
+font-weight: bold;
+display: inline-block;
+padding: 16px 65px;
+border: none;
+border-radius: 10px;
+background-color: $color-green;
+text-transform: uppercase;
+font-family: $font-lato;
+letter-spacing: 1px;
+font-size: 1.1rem;
+
+
+&:hover {
+    background-color: white;
+    color: $color-green;
+    transition: .3s;
+    opacity: 90%;
+}
+}

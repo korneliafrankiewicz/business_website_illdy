@@ -1,0 +1,74 @@
+.bestsellers {
+    padding: 30px 0;
+    background-color: $color-lightGray;
+
+    &__main__title {
+        color:$color-intensiveGreen;
+        text-align: center;
+        padding-bottom: 40px;
+
+    }
+
+
+    &__main {
+        padding: 0 100px;
+
+
+
+    }
+
+    
+    &__single {
+        background-color: white;
+        border: 1px solid #E8E9ED;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 40px;
+
+        &--corksorb {
+
+            .bestsellers__image {
+                margin-right: 117px;
+                margin-bottom: 38px;
+
+
+               
+            }
+        }
+
+        &--reverse {
+            flex-direction: row-reverse;
+            padding-left: 100px;
+        }
+
+        img {
+            width: 386px;
+            height: auto;
+            position: relative;
+            z-index: 2;
+        }
+
+        .bestsellers__text {
+            box-sizing: content-box;
+            max-width: 415px;
+            margin: 90px 36px;
+            color: $color-gray;
+
+            &::after {
+                content: "";
+                width: 332px;
+                height: 4px;
+                background-color: $color-green;
+                display: block;
+                margin-top: 30px;
+            }
+
+         
+        }
+
+    }
+}
+

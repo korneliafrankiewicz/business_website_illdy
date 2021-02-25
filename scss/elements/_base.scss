@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: $font-lato;
+    background-color: $color-lightGray;
+
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h1 {
+    font-family: $font-lato;
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 4vh;
+    text-align: center;
+   text-shadow: 1px 1px 5px $color-darkGray;
+  }
+
+  h2 {
+    font-family: $font-lato;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+  }
+
+
+  
+  /*
+   * Helpers
+   */
+  .container {
+    width: 1352px;
+    margin: 0 auto;
+
+    @include notebook {
+        width: 100%;
+        padding: 0 15px;
+    }
+  }
+  
+  .logo__GS {
+    width: 200px;
+  }

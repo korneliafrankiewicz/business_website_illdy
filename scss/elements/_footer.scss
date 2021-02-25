@@ -1,0 +1,33 @@
+.footer {
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    position: relative;
+
+ 
+    &::before {
+        content: "";
+        width: 100vw;
+        height: 60px;
+        background-color: white;
+        position: absolute;
+        opacity: 70%;
+        z-index: -1;
+        box-shadow: 0 0 50px 10px rgba(1, 1, 1, 0.8);
+
+    }
+
+    
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      &__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+}
+
